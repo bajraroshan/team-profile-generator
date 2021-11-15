@@ -10,7 +10,7 @@ This project will take all the input from user to generate their team page for t
 
 ## Important Links
 Github Repositories: https://github.com/bajraroshan/team-profile-generator<br>
-Example Readme Generated from application: https://github.com/bajraroshan/team-profile-generator/blob/master/dist/myteam.html
+Example Profile Generated from application: https://bajraroshan.github.io/team-profile-generator/dist/myteam.html
 
 ## Dependencies 
 Inquirer
