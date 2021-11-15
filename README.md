@@ -6,7 +6,7 @@
 This project will take all the input from user to generate their team page for their records.
 
 ## Demo
-[![ReadME Generator Walkthrough Video](https://i9.ytimg.com/vi/msC6DdSiEVg/mq3.jpg?sqp=CKS8pIwG&rs=AOn4CLBlpZAgzcZE0_oe4cgQ_ocDgWPbZA)](https://youtu.be/msC6DdSiEVg)
+[![ReadME Generator Walkthrough Video](https://i9.ytimg.com/vi_webp/zsEcFRH9m_g/mqdefault.webp?v=619265d8&sqp=CIjLyYwG&rs=AOn4CLClQF28hAPiY8swnkCZTFfxeOcvCQ)](https://youtu.be/zsEcFRH9m_g)
 
 ## Important Links
 Github Repositories: https://github.com/bajraroshan/team-profile-generator<br>
