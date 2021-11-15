@@ -1,12 +1,15 @@
+// Include packages needed for this application
 const fs = require ('fs');
 const inquirer = require("inquirer");
 const path = require("path");
 
+// Include class needed for this application
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const render = require("./lib/renderHTML");
 
+// Include path needed for this application
 const OUTPUT_DIR = path.resolve(__dirname, "dist");
 const outputPath = path.join(OUTPUT_DIR, "myteam.html");
 
@@ -41,7 +44,7 @@ function managerQuery() {
         }
     ]).then(val => {
         const manager = new Manager(val.name, val.id, val.email, val.officeNumber);
-        console.log(manager)
+        console.log(manager);
         employeeList.push(manager);
         addEmployee();
     });
@@ -118,6 +121,7 @@ function internQuery() {
         }
     ]).then(val => {
         const intern = new Intern(val.name, val.id, val.email, val.school);
+        console.log(intern);
         employeeList.push(intern);
         addEmployee();
     });
@@ -130,4 +134,5 @@ function createFile() {
     fs.writeFileSync(outputPath, render(employeeList), "UTF-8");
 }
 
+// Function call to initialize app
 init();
